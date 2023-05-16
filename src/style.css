@@ -1,0 +1,56 @@
+* {
+    font-family: arial,sans-serif;;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.cabecalho a{
+    margin-right: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.email,
+.image_name   {
+    font-size: 16px;
+    color: #000;
+}
+
+.menu img {
+    fill: #888;
+    width: 27px;
+}
+
+.login_botao {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    width: 125px;
+    line-height: 20px;
+    background-color: #2c78ec;
+}
+
+.login_botao:hover {
+    background-color: #1d5fca;
+    -webkit-backdrop-filter: drop-shadow(1px 1px 1px rgba(0,0,0,.5));
+    filter:  drop-shadow(1px 1px 1px rgba(0,0,0,.5));
+}
+
+.botao {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 13px 9px 13px;
+}
+
