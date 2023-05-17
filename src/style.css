@@ -21,13 +21,13 @@ body {
 
 .email,
 .image_name   {
-    font-size: 16px;
+    font-size: 13px;
     color: #000;
 }
 
-.menu img {
-    fill: #888;
+.svg {
     width: 27px;
+    margin-left: 6px;
 }
 
 .login_botao {
@@ -43,7 +43,6 @@ body {
 
 .login_botao:hover {
     background-color: #1d5fca;
-    -webkit-backdrop-filter: drop-shadow(1px 1px 1px rgba(0,0,0,.5));
     filter:  drop-shadow(1px 1px 1px rgba(0,0,0,.5));
 }
 
