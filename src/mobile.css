@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+
+    .camp_pesquisa {
+        width: 100%;
+    }
+
+    form #busca {
+        width: 100%;
+    }
+
+    .camp_pesquisa input {
+        width: 100%;
+    }
+
+    .lens {
+        margin-right: 15px;
+    }
+
+    footer {
+        width: auto;
+    }
+
+    .infor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+    }
+
+    .box1_sobre {
+        padding: 10px;
+    }
+
+    .box2_sobre {
+        padding: 10px;
+    }
+}
